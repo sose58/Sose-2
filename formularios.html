@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <h1>Registro de alumno</h1>
+
+    <form action="">
+        <label for="dni">DNI:</label>
+        <input type="text" id="DNI" minlength="8"
+        required>
+        <br>
+        <!-- <label for="nombre">Nombre:</label> -->
+        <input placeholder="Nombre" type="text" id="nombre">
+        <br>
+        <!-- <label for="">Apellido:</label> -->
+        <input type="text" id="ape" placeholder="Apellido">
+        <br>
+        <input type="emial" placeholder="Ingresa tu email">
+        <br>
+        <input type="password" placeholder="Ingresa tu password">
+        <br>
+        <label for="interes">Producto de interes</label>
+        <select id="interes">
+            <option value="">Carrera Universitaria</option>
+            <option value="">Postgrado</option>
+            <option value="">PFA</option>
+            <option value="">UCV+</option>
+        </select>
+        <br>
+        <label for="Nac">Fedcha de Nacimiento</label>
+        <input type="date" id="Nac">
+        <br>
+        <label for="">Genero</label>
+        <label for=""><input type="radio" name="gen">Masculino</label>
+        <label for=""><input type="radio" name="gen">Feminino</label>
+        <br>
+        <label for="coment">Comentarios</label><br>
+        <textarea id="coment" cols="30" rows="3"></textarea>
+        <br>
+        <br>
+        <input type="submit">
+        <input type="reset">
+    </form>
+
+</body>
+</html>
